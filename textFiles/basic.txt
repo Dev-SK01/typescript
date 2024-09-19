@@ -1,0 +1,3 @@
+---------------------- BASIC TYPESCRIPT -----------------
+
+1. TYPESCRIPT is an super set of Javascript.
