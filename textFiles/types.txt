@@ -1,0 +1,11 @@
+---------------------------- TYPESCRIPT STRONG TYPING ------------
+
+1. STRONG TYPING means assigned data types cannot be changed.
+
+2. var String:type -->  mentiont te types in TS.
+
+3. ARRAYS --> in ts array we cannot add another type of data. array:number[] =[] 
+
+4. ANY --> it mentions TS that the type can be changed. use any type when the structure changes 
+
+5. ENUM --> enum are human readable number name , is ts we can acheive by enum

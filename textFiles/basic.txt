@@ -1,3 +1,25 @@
 ---------------------- BASIC TYPESCRIPT -----------------
 
-1. TYPESCRIPT is an super set of Javascript.
+1. TYPESCRIPT is an super set of Javascript. it provides the extra features of the JS
+
+2. It Provides STRONG TYPING OOP COMPILE ERROR
+
+3. TYPESCRIPT converts into Javascript
+
+4. npm i -g typescript tsc
+
+------------------------ TYPESCRIPT ----------------
+
+1. STRONG TYPING --> cannot change the assigned data type.
+
+2. TYPES --> data types or types available in TS String , Number , Enum , Boolean ,Object.
+
+3. INFERRED TYPING -->  we don't need to mention the type , TS automatically get the type of varible
+
+4. DUCK TYPING --> in TS it maintains the initilized object structure. when we  create a new props it need the previous structure.
+
+5. ARRAYS --> in ts array we cannot add another type of data. array:number[] =[] 
+
+6. ANY --> it mentions TS that the type can be changed. use any type when the structure changes 
+
+7. ENUM --> enum are human readable number name , is ts we can acheive by enum
