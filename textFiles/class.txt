@@ -1,0 +1,3 @@
+--------------------- TS CLASS ----------------
+
+1. Ts Classes are normal js class with types

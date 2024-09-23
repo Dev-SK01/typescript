@@ -1,0 +1,7 @@
+----------------------------- FUNCTIONS --------------------
+
+1. In TS FUNCTIONS we need to specify the types of the params 
+
+2. We can specify the optional parameter. using param?:type
+
+3. default parameter , we can send default parmas in TS param:string=deafult-params

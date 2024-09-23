@@ -1,0 +1,7 @@
+--------------------------- INTERFACES -------------
+
+1. interfaces are predefined ts type structure,
+
+2. used to reduce the time of the reused types in ts , if we define the type we can use it any where
+
+3. we can also use optional types.
