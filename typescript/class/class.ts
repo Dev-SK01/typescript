@@ -12,7 +12,6 @@ class User{
         this.lastName = user.lastName;
         this.age = user.age;
     }
-
     logUser(){
         console.log(this.firstName ,this.lastName ,this.age )
     }

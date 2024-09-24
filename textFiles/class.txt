@@ -1,3 +1,13 @@
 --------------------- TS CLASS ----------------
 
 1. Ts Classes are normal js class with types
+
+2. Inheritance we can create multiple classes using inheritance. we can create our new props 
+   and methods , we can overide the class methods
+
+3. we ca use closures to ensure the structured code.
+
+4. class modifiers : private , public , protected
+  in deafult it take public as modifier , use getter and setter functions
+
+5. static functions are not depedent on the class props , its is indepedent , use static keyword
