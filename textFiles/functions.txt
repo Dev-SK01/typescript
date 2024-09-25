@@ -5,3 +5,7 @@
 2. We can specify the optional parameter. using param?:type
 
 3. default parameter , we can send default parmas in TS param:string=deafult-params
+
+4. in funciton we can mention the return type of the function 
+
+ function(name:string):Type{}

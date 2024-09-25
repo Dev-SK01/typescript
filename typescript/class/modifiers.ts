@@ -33,7 +33,7 @@ class Department extends Student {
     }
 
     getStudentDetails() {
-        const school = this.getSchool()
+        const school = this.getSchool() // private prop get-fn
         return console.log({ Name: this.name, age: this.age, state: this.state, school, department: this.department, college: this.college, year: this.year });
     }
     protected getCollegeDetails() {

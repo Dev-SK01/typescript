@@ -1,0 +1,16 @@
+---------------------- TS DECORATOR ---------------
+
+1. DECORATOR is special declaration it specifies the special information to the class ,fn,obj,var
+
+2. class DECORATOR , fn DECORATOR , prop DECORATOR
+
+3. function name (decorator props){
+    descriptor.value = function(...args){
+        // repeated code 
+    }
+}
+
+@name // DECORATOR takes the function name as propertyKey
+function(){
+    // code
+}
