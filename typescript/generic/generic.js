@@ -1,19 +1,19 @@
-var Generic = /** @class */ (function () {
-    function Generic() {
+"use strict";
+class Generic {
+    constructor() {
         this.items = [];
     }
-    Generic.prototype.push = function (item) {
+    push(item) {
         return this.items.push(item);
-    };
-    Generic.prototype.pop = function () {
+    }
+    pop() {
         return console.log(this.items.pop());
         ;
-    };
-    return Generic;
-}());
+    }
+}
 // generic class examples
-var class1 = new Generic();
-var class2 = new Generic();
+const class1 = new Generic();
+const class2 = new Generic();
 // for number generic
 class1.push(1);
 class1.push(2);

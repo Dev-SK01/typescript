@@ -8,6 +8,6 @@
 
 4. ANY --> it mentions TS that the type can be changed. use any type when the structure changes 
 
-5. ENUM --> enum are human readable number name , is ts we can acheive by enum
+5. ENUM --> enum are human readable number name , in ts we can acheive by enum ,used to create a new data
 
 6. IN FUNCTIONS void and never function(ars:type):void:never

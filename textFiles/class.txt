@@ -24,9 +24,9 @@
 ---------------------- TYPE CASTING -------------
 
 1. in some cases TS cannot understand TYPE of the data given it set any type , it happens for the 
-   API data so that we use types casting . we mantions TS to use only this type fo the data.
+   API data so that we use types casting . we mentions TS to use only this type fo the data.
 
-2. as type interface
+2. as type-interface
 
 ---------------------- TYPE ASSERTION -------------
 
@@ -43,3 +43,8 @@
 ------------ UNION TYPES -------------
 
 1. we can use two type in the TS using | symbol
+
+----------------- TYPE NARROWING ----------
+
+1. It is used to narrow down the types or interface we use TS use typeOf & instanceOf methods 
+   to do defined work.

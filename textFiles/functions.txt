@@ -6,6 +6,8 @@
 
 3. default parameter , we can send default parmas in TS param:string=deafult-params
 
-4. in funciton we can mention the return type of the function 
+4. in function we can mention the return type of the function 
 
- function(name:string):Type{}
+ function(name:string):ReturnType{
+    // code
+ }

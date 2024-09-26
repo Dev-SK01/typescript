@@ -1,3 +1,4 @@
+"use strict";
 // types number
 var number = 1234;
 var string = 'Im String';
@@ -19,3 +20,10 @@ function move(direction) {
     console.log(Direction[direction]);
 }
 move(Direction.Right);
+function returnValue(num) {
+    return num;
+}
+function multipleTypes(num, str) {
+    return [num, str];
+}
+multipleTypes(1, "1");

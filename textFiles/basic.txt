@@ -8,6 +8,8 @@
 
 4. npm i -g typescript tsc
 
+5. if we use packages we need to use types of the packages to compile & run it. TS needs declarations
+
 ------------------------ TYPESCRIPT ----------------
 
 1. STRONG TYPING --> cannot change the assigned data type.
@@ -23,3 +25,22 @@
 6. ANY --> it mentions TS that the type can be changed. use any type when the structure changes 
 
 7. ENUM --> enum are human readable number name , is ts we can acheive by enum
+
+
+----------------------- INSTALLATION ------------------
+
+1. npm i typescript  for node 
+
+2. npm i ts-node for Code Runner
+
+3. Use tsc to compile typescript code into Javascript code
+
+4. tsc init to config typescript
+
+-------------- tsconfig.json --------------
+
+1. include: []--> include files for compilation
+
+2. exclude: []--> exclude files for compilation
+
+3. outDir:"" --> compied files output directory

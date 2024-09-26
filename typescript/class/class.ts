@@ -23,3 +23,5 @@ const user2= new User({firstName:'Munu' , lastName:'Saami',age:21});
 
 user.logUser();
 user2.logUser();
+
+console.log(document)

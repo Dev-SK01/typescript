@@ -13,8 +13,16 @@ enum Direction {
     Left,
     Up,
     Down
-}function move(direction) {
+}function move(direction:any) {
     console.log(Direction[direction]);
 }
 move(Direction.Right);
 
+function returnValue(num:number):number{
+    return num;
+}
+
+function multipleTypes<Type1,Type2>(num:Type1,str:Type2):[Type1,Type2]{
+    return [num , str];
+}
+multipleTypes<number,string>(1,"1")
