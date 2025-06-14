@@ -4,12 +4,17 @@
 
 2. class DECORATOR , fn DECORATOR , prop DECORATOR
 
-3. function name (decorator props){
-    descriptor.value = function(...args){
-        // repeated code 
+3. Decorators help to remove the code duplication.
+
+4. function logMethod(target:any,propertyKey:string,descriptor){
+    
+    const originalMethod = descriptor.value;
+
+    descriptor.value = function(...ars:any[]){ // args we get original method arguments
+        // here we written will execute while calling the function
+        originalMethod.apply(this,args);    
     }
 }
-
 @name // DECORATOR takes the function name as propertyKey
 function(){
     // code
